@@ -1,0 +1,136 @@
+<template>
+  <svg
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 48 48"
+    xml:space="preserve"
+    :width="width"
+    :height="width"
+  >
+    <g transform="matrix(2,0,0,2,0,0)">
+      <path
+        d="M3.988 20.291L3.491 23.25"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M11.995 20.291L12.491 23.25"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M5.045 6.43L2.509 20.043 5.467 20.54 7.659 8.982"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M8.324 8.981L10.515 20.54 13.474 20.043 10.95 6.5"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M10.991,6a3,3,0,0,1-3.5,2.959,3.112,3.112,0,0,1-2.5-3.119V4.5a.75.75,0,0,1,.75-.75h4.5a.75.75,0,0,1,.75.75Z"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M7.991 3.75L7.991 0.75"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M15.491,23.25h4.5a1.5,1.5,0,0,0,1.5-1.5V2.25a1.5,1.5,0,0,0-1.5-1.5h-4.5a1.5,1.5,0,0,0-1.5,1.5V7.5"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M18.491 5.25L21.491 5.25"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M18.491 9.75L21.491 9.75"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M18.491 14.25L21.491 14.25"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+      <path
+        d="M18.491 18.75L21.491 18.75"
+        fill="none"
+        :class="color"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      ></path>
+    </g>
+  </svg>
+</template>
+
+<script>
+export default {
+  name: "ProtractorIcon",
+  props: {
+    color: {
+      type: String,
+      default: "gray",
+      required: false,
+    },
+    strokeWidth: {
+      type: Number,
+      default: 2,
+      required: false,
+    },
+    width: {
+      type: Number,
+      default: 23,
+      required: false,
+    },
+  },
+  components: {},
+  data() {
+    return {};
+  },
+  methods: {},
+};
+</script>
+
+<style>
+.gray {
+  fill: #fff;
+  stroke: #bfbfbf;
+}
+</style>
